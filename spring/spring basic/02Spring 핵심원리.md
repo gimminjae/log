@@ -23,15 +23,19 @@ public class MemberServiceImpl implements MemberService {
         private final MemberRepository memberRepository;
         public MemberServiceImpl(MemberRepository memberRepository) {
             this.memberRepository = memberRepository;
-}
+        }
         public void join(Member member) {
             memberRepository.save(member);
-}
+        }
         public Member findMember(Long memberId) {
             return memberRepository.findById(memberId);
-} }
+        } 
+}
 ```
 위와 같이 설계를 변경하면 MemberServiceImpl은 구현체가 아닌 MemberRepository 인터페이스를 의존한다.
+
 MemberServiceImpl은 생성자를 통해서 어떤 구현 객체가 들어올지(주입될지) 알 수 없다.
+
 해당 사항은 외부(AppConfig)에서 결정된다.
+
 MemberServiceImpl은 의존관계에 대한 고민은 외부(AppConfig)에 맡기고 자신의 역할에만 집중할 수 있다.

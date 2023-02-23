@@ -4,7 +4,7 @@
 - [Spring Basic](https://github.com/gimminjae/log/tree/master/spring/spring%20basic)
 
 
-#### 보충
+#### 템플릿 
 - [thymeleaf](https://github.com/gimminjae/log/tree/master/spring/thymeleaf)
 ## DBMS
 ## Java

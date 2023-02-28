@@ -70,3 +70,9 @@ git log --oneline --graph
 ```
 git remote update
 ```
+
+## 커밋 메시지 변경
+```
+git commit --amend (편집기 염)
+git commit --amend -m "an updated commit message" (편집기 열지 않고 메시지 변경)
+```

@@ -57,6 +57,25 @@ git checkout 브랜치이름
 ```
 git checkout -b 브랜치이름
 ```
+- 브랜치 조회 remote/a
+```
+git branch -r
+git branch -a
+```
+- 현재 브랜치의 최신 커밋의 상태로 코드를 되돌리는 법
+```
+git checkout .
+```
+- 브랜치 merge (b브랜치의 내용을 a브랜치에 머지할 때)
+1. a브랜치로 이동
+2. merge -> b브랜치의 내용이 반영됨
+3. 충돌해결 및 push
+```
+git checkout a
+git merge b
+git push origin a
+```
+
 ## 커밋 히스토리 보기
 - 기본
 ```

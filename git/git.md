@@ -75,6 +75,10 @@ git checkout a
 git merge b
 git push origin a
 ```
+- 브랜치 삭제
+```
+git branch -d <branchname>
+```
 
 ## 커밋 히스토리 보기
 - 기본

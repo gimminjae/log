@@ -1,4 +1,4 @@
-## 초기 설정
+### 초기 설정
 ```
 이름, 이메일 설정
 git config --global user.name "your_name"
@@ -7,7 +7,7 @@ git config --global user.email "your_email"
 설정 정보 보기
 git config --list
 ```
-## 프로젝트 git에 올리기
+### 프로젝트 git에 올리기
 - 처음 올릴 때
 ```
 초기화
@@ -30,8 +30,7 @@ git push origin master
 ```
 git status
 ```
-
-## 깃헙에서 프로젝트 받기
+### 깃헙에서 프로젝트 받기
 - 깃헙 레포에서 Download Zip
 - 클론
 ```
@@ -47,7 +46,7 @@ git pull (origin master)
 git pull
 git pull origin master(브랜치 이름)
 ```
-## 브랜치
+### 브랜치
 - 브랜치 생성 및 이동
 ```
 git branch 브랜치이름
@@ -79,8 +78,7 @@ git push origin a
 ```
 git branch -d <branchname>
 ```
-
-## 커밋 히스토리 보기
+### 커밋 히스토리 보기
 - 기본
 ```
 git log
@@ -89,13 +87,13 @@ git log
 ```
 git log --oneline --graph
 ```
-## local remote 와 동일하게 업데이트(동기화)
+### local remote 와 동일하게 업데이트(동기화)
 ```
 git remote update
 ```
-
-## 커밋 메시지 변경
+### 커밋 메시지 변경
 ```
 git commit --amend (편집기 염)
 git commit --amend -m "an updated commit message" (편집기 열지 않고 메시지 변경)
 ```
+### 

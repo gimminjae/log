@@ -12,7 +12,7 @@
 
 [커밋 메시지 변경](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-메시지-변경)
 
-[커밋 취소(remote에 push된 내용은 취소 불가)](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-취소(remote에-push된-내용은-취소-불가))
+[커밋 취소(remote에 push된 내용은 취소 불가)](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-취소remote에-push된-내용은-취소-불가)
 
 ### 초기 설정
 ```

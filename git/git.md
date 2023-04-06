@@ -8,7 +8,7 @@
 
 [커밋 히스토리 보기](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-히스토리-보기)
 
-[local remote 와 동일하게 업데이트](https://github.com/gimminjae/log/blob/master/git/git.md#local-remote-와-동일하게-업데이트)
+[local remote 와 동일하게 업데이트](https://github.com/gimminjae/log/blob/master/git/git.md#local-remote-와-동일하게-업데이트동기화)
 
 [커밋 메시지 변경](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-메시지-변경)
 

@@ -4,7 +4,7 @@
 
 [깃헙에서 프로젝트 받기](https://github.com/gimminjae/log/blob/master/git/git.md#깃헙에서-프로젝트-받기)
 
-[브랜치](https://github.com/gimminjae/log/blob/master/git/git.md#)
+[브랜치](https://github.com/gimminjae/log/blob/master/git/git.md#브랜치)
 
 [커밋 히스토리 보기](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-히스토리-보기)
 

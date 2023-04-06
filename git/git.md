@@ -96,4 +96,11 @@ git remote update
 git commit --amend (편집기 염)
 git commit --amend -m "an updated commit message" (편집기 열지 않고 메시지 변경)
 ```
-### 
+### 커밋 취소(remote에 push된 내용은 취소 불가)
+```
+현재 커밋에서 바로 전 커밋으로 리셋(코드수정사항은 남는다)
+git reset HEAD^
+
+수정사항이 초기화됨
+git checkout .
+```

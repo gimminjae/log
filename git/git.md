@@ -1,3 +1,4 @@
+[초기 설정](https://github.com/gimminjae/log/blob/master/git/git.md#초기 설정)
 [프로젝트 git에 올리기](https://github.com/gimminjae/log/blob/master/git/git.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-git%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)
 
 ### 초기 설정

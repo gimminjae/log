@@ -1,18 +1,18 @@
-[초기 설정](https://github.com/gimminjae/log/blob/master/git/git.md#초기-설정)
+[초기 설정](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#초기-설정)
 
-[프로젝트 git에 올리기](https://github.com/gimminjae/log/blob/master/git/git.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-git%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)
+[프로젝트 git에 올리기](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-git%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)
 
-[깃헙에서 프로젝트 받기](https://github.com/gimminjae/log/blob/master/git/git.md#깃헙에서-프로젝트-받기)
+[깃헙에서 프로젝트 받기](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#깃헙에서-프로젝트-받기)
 
-[브랜치](https://github.com/gimminjae/log/blob/master/git/git.md#브랜치)
+[브랜치](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#브랜치)
 
-[커밋 히스토리 보기](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-히스토리-보기)
+[커밋 히스토리 보기](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#커밋-히스토리-보기)
 
-[local remote 와 동일하게 업데이트](https://github.com/gimminjae/log/blob/master/git/git.md#local-remote-와-동일하게-업데이트동기화)
+[local remote 와 동일하게 업데이트](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#local-remote-와-동일하게-업데이트동기화)
 
-[커밋 메시지 변경](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-메시지-변경)
+[커밋 메시지 변경](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#커밋-메시지-변경)
 
-[커밋 취소(remote에 push된 내용은 취소 불가)](https://github.com/gimminjae/log/blob/master/git/git.md#커밋-취소remote에-push된-내용은-취소-불가)
+[커밋 취소(remote에 push된 내용은 취소 불가)](https://github.com/gimminjae/log/blob/master/git/gitCmd.md#커밋-취소remote에-push된-내용은-취소-불가)
 
 ### 초기 설정
 ```

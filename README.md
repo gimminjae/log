@@ -1,3 +1,3 @@
-- [Git command](https://github.com/gimminjae/log/blob/master/git/git.md)
+- [Git command](https://github.com/gimminjae/log/blob/master/git/gitCmd.md)
 
 - [Spring](https://github.com/gimminjae/log/tree/master/spring)

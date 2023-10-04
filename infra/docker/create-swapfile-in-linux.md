@@ -41,3 +41,7 @@ sudo vi /etc/fstab
 ```
 free -h
 ```
+
+## 참고
+[AWS](https://repost.aws/ko/knowledge-center/ec2-memory-swap-file)
+[Blog](https://velog.io/@chang626/AWS-EC2-free%EC%97%90%EC%84%9C-%EB%B0%9C%EC%83%9D%ED%95%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%AC%B8%EC%A0%9C-jenkins-build-%EB%B0%B0%ED%8F%AC)

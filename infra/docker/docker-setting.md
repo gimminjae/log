@@ -1,5 +1,9 @@
 # Setting & Install
 ### install docker with yum / apt
+```
+sudo yum -y upgrade
+sudo yum -y install docker
+```
 linux에서 root 권한이 아닌 상태로 docker를 실행하면 권한 문제가 발생할 수 있다.
 ```
 [linux@localhost ]$ docker ps
@@ -10,13 +14,13 @@ ssion denied
 
 보통은 docker group이 생겼을테지만, 만약 없으면 생성해준다.
 ```
-$ sudo groupadd docker
+sudo groupadd docker
 ```
 docker group에 해당 유저를 추가
 ```
-$ sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
 ```
 로그아웃 후 다시 로그인하거나 다음 명령어를 실행시켜야 적용이 된다.
 ```
-$ newgrp docker
+newgrp docker
 ```

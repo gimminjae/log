@@ -1,6 +1,7 @@
 # image pull
 ```
 docker pull jenkins/jenkins:lts
+docker pull jenkins/jenkins:jdk17
 ```
 # confirm image
 ```
@@ -8,7 +9,7 @@ docker images
 ```
 # run image
 ```
-docker run -d -p 9080:8080 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins/jenkins:lts
+docker run -d -p 9080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /var/jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts # :jdk17
 ```
 ### Option
 - "-d" : background 실행
@@ -31,8 +32,15 @@ docker logs jenkins
 docker exec -it [container name]
 docker exec -it jenkins
 ```
+- "-u root" : root 권한으로 실행
 # get password
 ```
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+# Jenkins 세팅
+- install plugin
+- enter account info
+- ...
+
+  

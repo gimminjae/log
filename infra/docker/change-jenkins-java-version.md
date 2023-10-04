@@ -1,6 +1,7 @@
 # install java ex)17 version
 ```
-sudo yum install java-17-openjdk -y
+apt-get update
+apt-get install openjdk-17-jdk -y
 ```
 
 # mlocate 설치 및 검색

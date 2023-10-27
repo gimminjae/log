@@ -4,6 +4,10 @@
 sudo yum -y upgrade
 sudo yum -y install docker
 ```
+docker가 실행중이 아닐 경우 start
+```
+sudo systemctl start docker
+```
 linux에서 root 권한이 아닌 상태로 docker를 실행하면 권한 문제가 발생할 수 있다.
 ```
 [linux@localhost ]$ docker ps

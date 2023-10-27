@@ -27,10 +27,14 @@ echo $JAVA_HOME
 # Name : openjdk-17-jdk
 # JAVA_HOME : /usr/lib/jvm/java-17-openjdk-amd64
 ```
+- [Blog](- https://github.com/gimminjae/log/blob/master/infra/docker/change-jenkins-java-version.md)
+### Redis container setting
+```
+docker pull redis
+docker run -d -p 6379:6379 --name redis-container redis
+```
 ### 프로젝트 생성 및 세팅
 - 
-### change Jenkins java version
-- https://github.com/gimminjae/log/blob/master/infra/docker/change-jenkins-java-version.md
 ### docker.sock 설정
 - 
 ### 

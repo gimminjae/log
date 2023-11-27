@@ -1,6 +1,20 @@
 # 1️⃣ 기초
 
 ###  📌 JDK와 JRE의 차이점은 무엇입니까?
+JDK(Java Development Kit)와 JRE(Java Runtime Environment) 사이의 주요 차이는 개발과 실행에 대한 기능입니다.
+
+JDK가 JRE를 포함한다.
+
+JDK (Java Development Kit):
+- JDK는 Java 애플리케이션 및 소프트웨어를 개발하기 위한 도구 모음입니다.
+- 컴파일러, 디버거, Java 런타임 환경(JRE) 및 다양한 개발 도구와 라이브러리가 포함되어 있습니다.
+- JDK를 사용하여 Java 코드를 작성하고, 컴파일하여 실행 가능한 바이트 코드로 변환할 수 있습니다.
+JRE (Java Runtime Environment):
+- JRE는 Java 애플리케이션을 실행하는 데 필요한 요소들을 포함하고 있습니다.
+- 런타임 환경은 JVM(Java Virtual Machine)과 Java 클래스 라이브러리들을 포함하며, Java 애플리케이션을 실행하는 데 필요한 환경을 제공합니다.
+- 개발자가 아닌 사용자가 Java 애플리케이션을 실행하려면 JRE만 있으면 됩니다.
+
+간단히 말하자면, JDK는 Java 애플리케이션을 ***개발하는 데 필요한 모든 도구***를 포함하고 있고, JRE는 그 애플리케이션을 ***실행하는 데 필요한 요소들***만 포함하고 있습니다.
 
 ### 📌 ==와 equals의 차이점은 무엇입니까?
 

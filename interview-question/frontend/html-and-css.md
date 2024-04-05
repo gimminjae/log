@@ -1,5 +1,6 @@
 # HTML
 ### 1. What is the purpose of the `DOCTYPE` declaration in HTML?
+ > The purpose of the DOCTYPE declaration is to ensure that the web browser renders the web page correctly by specifying the document type and version.
 ### 2. Explain the difference between `<div>` and `<span>` in HTML?
 ### 3. How do you link an `external CSS stylesheet` tn an HTML document?
 ### 4. What is the significance of the alt attribute in the `<img>` tag?

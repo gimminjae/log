@@ -43,7 +43,7 @@ From [linked-in](https://www.linkedin.com/posts/harisahmad59_frontend-interview-
 ### 5. Describe the difference between `GET` and `POST` methods in HTML forms.
 > `GET` and `POST` differ in several aspects, including how data is transmitted and how they are handled by the server.
 > 1. Data Transmission <br>
-> When using the `GET`, form data is appended th the URL as a query string. This means that the form data is visible in the URL, which may pose security risks if sensitive information is being transmitted. The maximum length of a URL in most browsers is limited, so `GET` requests are typically used for submitting small amounts of data. <br>
+> When using the `GET`, form data is appended to the URL as a query string. This means that the form data is visible in the URL, which may pose security risks if sensitive information is being transmitted. The maximum length of a URL in most browsers is limited, so `GET` requests are typically used for submitting small amounts of data. <br>
 > On the other side, with the `POST`, form data is sent as part of the HTTP request body, rather than appended to the URL. This allows for the transmission of larger amounts of data, and the data is not visible in the URL, providing better for sensitive information.
 > 
 > 2. Caching <br>

@@ -39,9 +39,9 @@ From [linked-in](https://www.linkedin.com/posts/harisahmad59_frontend-interview-
 > 2. SEO(Search Engine Optimization) <br>
 > Search Engine use `alt` text to understand the content and context of images on a web page.
 > 3. Image Loading Failures <br>
-> If the image falis to load due to a slow network connection, server error, or any other reason, the browser will display the `alt` text instead of the image.
+> If the image fails to load due to a slow network connection, server error, or any other reason, the browser will display the `alt` text instead of the image.
 ### 5. Describe the difference between `GET` and `POST` methods in HTML forms.
-> The difference between `GET` and `POST` differ in several aspects, including how data is transmitted and how they are handled by the server.
+> `GET` and `POST` differ in several aspects, including how data is transmitted and how they are handled by the server.
 > 1. Data Transmission <br>
 > When using the `GET`, form data is appended th the URL as a query string. This means that the form data is visible in the URL, which may pose security risks if sensitive information is being transmitted. The maximum length of a URL in most browsers is limited, so `GET` requests are typically used for submitting small amounts of data. <br>
 > On the other side, with the `POST`, form data is sent as part of the HTTP request body, rather than appended to the URL. This allows for the transmission of larger amounts of data, and the data is not visible in the URL, providing better for sensitive information.
